@@ -1,4 +1,4 @@
-# OpenVPN Client C++ custom Wrapper
+# OpenVPN v3 Client C++ custom Wrapper
 
 ## Version 0.0.0.1
 
