@@ -17,7 +17,9 @@ export MTLS=1
 
 mkdir $DEP_DIR && mkdir $DL
 echo "*" > $DEP_DIR/.gitignore
+echo '!'".gitignore" >> $DEP_DIR/.gitignore
 echo "*" > $DL/.gitignore
+echo '!'".gitignore" >> $DL/.gitignore
 
 cd core/scripts/linux/
 ./build-all
